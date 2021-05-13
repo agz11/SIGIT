@@ -7,7 +7,7 @@
 import os, re, sys, time, json, requests, textwrap, socket
 from email_validator import validate_email, EmailNotValidError
 from googlesearch import search
-from lxml.html import fromstring
+from html import fromstring
 from getpass import getpass
 from shutil import which
 
